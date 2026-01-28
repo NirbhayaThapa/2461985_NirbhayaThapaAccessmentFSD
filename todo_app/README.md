@@ -1,4 +1,4 @@
-# To-Do List Applicatio
+# To-Do List Application
 
 ## Overview
 This project is a simple web-based To-Do List application developed using PHP and MySQL.  
