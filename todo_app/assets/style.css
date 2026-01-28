@@ -1,0 +1,135 @@
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef1f4;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+
+a {
+    color: #ffffff;
+    background-color: #3498db;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
+
+td a {
+    background-color: transparent;
+    color: #3498db;
+    padding: 0;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+
+#search {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background-color: #f4f6f8;
+    text-align: left;
+    padding: 12px;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tr:hover {
+    background-color: #f9fafb;
+}
+
+
+td:nth-child(2) {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+td:nth-child(2):contains("completed") {
+    color: green;
+}
+
+td:nth-child(3) {
+    text-transform: capitalize;
+}
+
+
+form {
+    max-width: 400px;
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 14px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e8449;
+}
+
+p {
+    margin-top: 10px;
+}
